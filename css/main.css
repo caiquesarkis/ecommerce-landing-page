@@ -12,6 +12,17 @@ body{
     align-items: center;
 }
 
+#ellipse{
+    width:40vw;
+    height:40vw;
+    background-color: white;
+    border-radius: 50%;
+    position:absolute;
+    margin-left: -100vw;
+    margin-top: -30vw;
+}
+
+
 #market-name{
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
