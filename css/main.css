@@ -1,0 +1,233 @@
+body{
+    margin:0;
+    background-color: #0A0A0A;
+}
+
+/* First Section */
+
+#first-section{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#market-name{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color:#AEAAAA;
+    font-size: 1.25rem;
+
+    margin: 40px 0 0 0;
+}
+
+#black-friday{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    color:white;
+    font-size:3rem;
+
+    margin: 30px 0 0 0;
+}
+
+#black-friday-design{
+    position: absolute;
+    -webkit-transform: translate(250px) ;
+}
+
+#sale{
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 400;
+    font-size:15rem;
+    color:#FF0000;
+
+    margin:0;
+}
+
+#discount{
+    font-family: 'Roboto', sans-serif;
+    font-weight:bold;
+    font-size:1.25rem;
+    color:white;
+
+    margin:-50px 0 0 0;
+}
+
+/* Cadastro */
+
+#signup{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+
+    margin: 100px 0 0 0 ;
+
+
+}
+
+#signup-label{
+    font-family: 'Roboto', sans-serif;
+    font-weight:100;
+    color:#9D9D9D;
+    font-size: 1rem;
+}
+
+#signup-input{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    color:#000000;
+    font-size: 1.5rem;
+    text-align: center;
+
+    width:55vw;
+    height:35px;
+
+    border-radius: 5px;
+
+    border:none;
+
+}
+
+#signup-button{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    color:#000000;
+    font-size: 1.5rem;
+    text-align: center;
+
+    margin-top: 10px;
+    width:55.5vw;
+    height:35px;
+
+    border-radius: 5px;
+
+    background-color: #FF3333;
+
+    border:none;
+
+}
+
+#signup-button:hover{
+    background-color: #fd1e1e;
+    cursor: pointer;
+
+}
+
+/* Galeria de produtos */
+
+#products-title{
+    font-family: 'Poppins';
+    font-weight: bold;
+    color:white;
+    font-size: 5rem;
+    text-align: center;
+    margin:100px 0 0 0;
+}
+
+#products{
+    margin: 100px 100px 0 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.product-card{
+    margin: 50px 50px 50px 0;
+    display: flex;
+    flex-direction: column;
+
+    background-color: white;
+
+    width: 230px;
+    height:342px;
+
+    
+
+}
+
+#card-img{
+
+    overflow: hidden;
+    height: 90%;
+}
+
+#card-footer{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    height: 10%;
+    
+
+    text-align: center;
+    
+
+    vertical-align: middle;
+
+}
+
+
+
+#card-info{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    color:white;
+    font-size: 1.5rem;
+
+    height: 100%;
+    flex-grow: 1;
+    background-color: #000000;
+    margin: 0;
+
+}
+
+#card-price{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color:white;
+    font-size: 1.3rem;
+
+    height: 100%;
+    flex-grow: 3;
+    background-color: red;
+    margin: 0;
+
+}
+
+
+#card-info:hover{
+    cursor: pointer;
+    background-color: #474747;
+}
+
+
+/* Footer */
+
+#footer{
+    background-color: lightcoral;
+
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    font-family: 'Poppins';
+    color:#551A8B;
+
+    height:20vh;
+}
+
+#footer a{
+    text-decoration: none;
+    
+}
+
+
+#footer p{
+    color:black;
+    border-bottom: 2px solid black;
+    
+}
