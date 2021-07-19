@@ -136,16 +136,18 @@ body{
 }
 
 #products{
-    margin: 100px 100px 0 100px;
+    margin: 7.32vw 0 0 0;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
     align-items: center;
+    
+
 }
 
 .product-card{
-    margin: 50px 50px 50px 0;
+    margin: 3.7vw 3.7vw 3.7vw 3.7vw;
     display: flex;
     flex-direction: column;
 
@@ -155,8 +157,11 @@ body{
     height:342px;
 
     
+    
 
 }
+
+
 
 #card-img{
 
@@ -242,3 +247,74 @@ body{
     border-bottom: 2px solid black;
     
 }
+
+
+/* Mobile */
+
+
+@media only screen and (max-width: 500px){
+    #black-friday-design{
+        -webkit-transform: translate(130px) scale(0.5,0.5);
+    }
+    
+
+    #sale{
+        font-family: 'Abril Fatface', cursive;
+        font-weight: 400;
+        font-size:9rem;
+        color:#FF0000;
+    
+        margin:0;
+    }
+    
+    #discount{
+
+        font-size:.75rem;
+        margin:-30px 0 0 0;
+    
+    }
+    
+
+    #market-name{
+        font-size: .75rem;
+    }
+
+    #black-friday{
+        font-size:2.5rem;
+    }
+
+    #ellipse{
+        width:60vw;
+        height:60vw;
+        margin-left: -110vw;
+        margin-top: -120vw;
+    }
+
+    
+    #signup-input{
+        font-size: 1rem;
+        width:75vw;
+    }
+
+    #signup-button{
+        font-size: 1rem;
+        width:76vw;
+    }
+
+
+    #products-title{
+
+        font-size: 2rem;
+
+    }
+
+    .product-card{
+        width: 330px;
+        height:442px;
+    }
+}
+
+
+
+
+

@@ -7,4 +7,5 @@ function getInfo(){
     counter += 1;
     window.localStorage.setItem(`Email ${counter}`, email);
     console.log('Email received')
+    alert("Email cadastrado com sucesso!")
 }
